@@ -1,17 +1,3 @@
-# curriculum-databases-projects-template
-
-> This template should be used for database related projects at Microverse.
-> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
-
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
 <a name="readme-top"></a>
 
 <!--
@@ -36,38 +22,43 @@ REQUIRED SECTIONS:
 After you're finished please remove all the comments and instructions!
 -->
 
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>Microverse README Template</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[Vet Clinic Database\] ](#-vet-clinic-database-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Usage](#usage)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [❓ FAQ ](#-faq-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Vet Clinic Database] <a name="clinic database"></a>
 
-> Describe your project in 1 or 2 sentences.
+> This template should be used for database related projects at Microverse.
+> Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
-**[your_project__name]** is a...
+**[Vet Clinic Database]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,14 +69,14 @@ After you're finished please remove all the comments and instructions!
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li></li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
+    <li><a href="https://dev.mysql.com/doc/">SQL</a></li>
   </ul>
 </details>
 
@@ -102,9 +93,10 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Database Performance Audit]**
+- **[Database Based on a Diagram]**
+- **[Decode Morse Message]**
+- **[Enumerable ]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -114,7 +106,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](<replace-with-your-deployment-URL>)
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +114,11 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+This repository includes files with plain SQL that can be used to recreate a database:
+
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
 
 To get a local copy up and running, follow these steps.
 
@@ -130,117 +126,37 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- SQL installed.
+- PostgresQL.
+- Git.
+- PG-Admin-4.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
-
-### Install
-
-Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+git clone https://github.com/Mutai-Gilbert/Vet-Clinic-Database
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+👤 **Gilbert Mutai**
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/Mutai-Gilbert)
+- Twitter: [@twitterhandle](https://twitter.com/@nerdmutai)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mutai-gilbert-2a5a42137/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Mutai-Gilbert/Vet-Clinic-Database/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -260,8 +176,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
-
+I would like to thank Microverse
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FAQ (optional) -->
