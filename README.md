@@ -68,8 +68,10 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-
+```
 git clone git@github.com:Mutai-Gilbert/Vet-Clinic-Database.git
+
+```
 
 cd Vet-clinic-database
 
