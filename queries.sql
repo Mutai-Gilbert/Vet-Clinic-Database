@@ -154,7 +154,3 @@ LIMIT 1;
 
 
 
--- [X] decrease the execution time
-EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4; 
-EXPLAIN ANALYZE SELECT * FROM visits WHERE vet_id = 2;
-EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
