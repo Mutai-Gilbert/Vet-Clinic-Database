@@ -273,3 +273,6 @@ ORDER BY num_visits DESC
 LIMIT 1;
 
 // Vet clinic database: database performance audit
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
