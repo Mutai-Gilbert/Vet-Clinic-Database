@@ -106,10 +106,13 @@ That's it! Congratulations, you have created your database and connected to it. 
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Emmanuel Obi**
+👤 **Mutai Gilbert**
 
 - GitHub: [@githubhandle](https://github.com/Mutai-Gilbert)
 
+👤 **Caleb Nwaizu**
+
+- GitHub: [@githubhandle](https://github.com/calebchris000)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
