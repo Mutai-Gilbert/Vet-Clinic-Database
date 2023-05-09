@@ -271,3 +271,5 @@ WHERE visits.vet_id IN (SELECT id FROM vets WHERE name = 'Maisy Smith')
 GROUP BY species.name
 ORDER BY num_visits DESC
 LIMIT 1;
+
+// Vet clinic database: database performance audit
