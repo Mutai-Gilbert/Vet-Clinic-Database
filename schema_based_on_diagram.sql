@@ -3,11 +3,10 @@ CREATE TABLE patients (
 	name VARCHAR(120),
 	date_of_birth DATE
 );
-CREATE INDEX name_idx ON patients(name);
 
 CREATE TABLE medical_histories (
 	id SERIAL PRIMARY KEY,
-	admmitted_at TIMESTAMP,
+	admitted_at TIMESTAMP,
 	patient_id INTEGER, 
 	FOREIGN KEY (patient_id) REFERENCES patients(id),
 	status VARCHAR(255)
@@ -40,16 +39,19 @@ CREATE TABLE treatments (
 	type VARCHAR(255),
 	name VARCHAR(255)
 );
-CREATE INDEX name_idx ON treatments(id);
 
 ALTER TABLE invoices_items
 ADD CONSTRAINT fk_invoice_id
 FOREIGN KEY (treatment_id)
 REFERENCES  treatments(id);
 
+CREATE INDEX treatment_id_idx ON treatments(id);
+
 CREATE TABLE medical_treatment (
 	treatment_id INTEGER,
 	medical_histories_id INTEGER,
-	PRIMARY KEY (treatment_id, medical_histories_id)
+	PRIMARY KEY (treatment_id, medical_histories_id),
+    FOREIGN KEY(treatment_id) REFERENCES treatments(id)
+    FOREIGN KEY(medical_histories_id) REFERENCES medical_histories(id)
 );
 CREATE INDEX medical_treatment_idx ON medical_treatment(treatment_id);
