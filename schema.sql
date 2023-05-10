@@ -271,3 +271,13 @@ WHERE visits.vet_id IN (SELECT id FROM vets WHERE name = 'Maisy Smith')
 GROUP BY species.name
 ORDER BY num_visits DESC
 LIMIT 1;
+
+// Vet clinic database: database performance audit
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- [X] decrease the execution time
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4; 
+EXPLAIN ANALYZE SELECT * FROM visits WHERE vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
